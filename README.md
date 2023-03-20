@@ -1,7 +1,16 @@
-# Vue 3 + Vite
+# [#boraCodar](https://www.rocketseat.com.br/boracodar) - Desafio 11 - Pagina de Login
+### Bora codar uma pagina de login
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Para ver o site clique [aqui]()
 
-## Recommended IDE Setup
+Pagina de login basica com login, signup e home.
+Redirecionamento automatico, se nao houver conta da pagina home para login.
+Alterção de dados de conta habilitada para só ocorrer uma vez quando você clicar em "esqueceu a conta".
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Ferramentas utilizadas
+
+- JavaScript
+- [Vue.js](https://vuejs.org)
+- [Vue-router](https://router.vuejs.org)
+- CSS
+- HTML
