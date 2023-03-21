@@ -5,9 +5,9 @@ import Login from '../views/Login.vue'
 import SignUp from '../views/SignUp.vue'
 
 const routes = [
-  { path: '/', component: Home },
-  { path: '/login', component: Login },
-  { path: '/signup', component: SignUp },
+  { path: '/boraCodar-Login/', component: Home },
+  { path: '/boraCodar-Login/login', component: Login },
+  { path: '/boraCodar-Login/signup', component: SignUp },
 ]
 
 const router = createRouter({

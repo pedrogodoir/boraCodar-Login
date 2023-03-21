@@ -9,7 +9,7 @@
                 <InputText type="text" placeholder="Senha" v-model="password"/>
                 <Button type="submit" label="Entrar" icon="pi pi-check" severity="help"/>
                 <p>Nao tem ou esqueceu sua conta?
-                    <router-link v-on:click="setAlter" to="/signup">Clique aqui</router-link>
+                    <router-link v-on:click="setAlter" to="/boraCodar-Login/signup">Clique aqui</router-link>
                 </p>
                 <InlineMessage :severity="alert">{{ textAlert.text }}</InlineMessage>
             </form>
@@ -46,7 +46,7 @@ function login() {
         textAlert.text = 'Logando...'
 
         setTimeout(() =>{
-            router.push('/')
+            router.push('/boraCodar-Login/')
         }, 1000 * 1)
     }else {
         console.log('400: Bad Request')
