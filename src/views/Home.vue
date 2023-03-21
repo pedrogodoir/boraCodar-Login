@@ -10,7 +10,7 @@ import router from '../routes';
 
     onMounted(() => {
         if(localStorage.enter != 'true') {
-            router.push('/login')
+            router.push('/boraCodar-Login/login')
         }
     })
 </script>

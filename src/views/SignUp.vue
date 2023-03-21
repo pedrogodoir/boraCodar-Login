@@ -47,7 +47,7 @@ function signup() {
         textAlert.text = 'Conta registrada!'
 
         setTimeout(() =>{
-            router.push('/login')
+            router.push('/boraCodar-Login/login')
         }, 1000 * 1)
     }else if(localStorage.alter == 'true') {
         localStorage.setItem('name', name.value)
@@ -58,7 +58,7 @@ function signup() {
         textAlert.text = 'Conta registrada!'
 
         setTimeout(() =>{
-            router.push('/login')
+            router.push('/boraCodar-Login/login')
         }, 1000 * 1)
     }else {
         alert.value = 'info'
